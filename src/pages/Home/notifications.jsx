@@ -5,24 +5,36 @@ class Notify extends Component{
     render (){
         return (
             <div className="notification">
-                <ul>
-                    <li>
-                        <a href="" data-toggle="" aria-expanded="true"> 
-                            <h3>
-                                <i class="fa-solid fa-bullhorn"></i>
-                                Announcement
-                            </h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" data-toggle='' aria-expanded='true'> 
-                            <h3>
-                                <i class="fa-solid fa-bars-progress"></i>
-                                Recruitment
-                            </h3>
-                        </a>
-                    </li>
-                </ul>
+                <div className="row">
+                    <div className="">
+                        <ul className="nav nav-pills boot-tabs">
+                            <li className="active">
+                                <a href="" data-toggle="tab" aria-expanded="true"> 
+                                    <h4>
+                                        <i class="fa-solid fa-bullhorn"></i>
+                                        Announcement
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" data-toggle='' aria-expanded='true'> 
+                                    <h4>
+                                        <i class="fa-solid fa-bars-progress"></i>
+                                        Recruitment
+                                    </h4>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div className="events">
+                        
+                    </div>
+
+
+                </div>
+                
             </div>
             )
         
