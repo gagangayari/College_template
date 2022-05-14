@@ -11,7 +11,7 @@ class Notify extends Component{
                             <li className="active">
                                 <a href="" data-toggle="tab" aria-expanded="true"> 
                                     <h4>
-                                        <i class="fa-solid fa-bullhorn"></i>
+                                        <i className="fa-solid fa-bullhorn"></i>
                                         Announcement
                                     </h4>
                                 </a>
@@ -19,7 +19,7 @@ class Notify extends Component{
                             <li>
                                 <a href="" data-toggle='' aria-expanded='true'> 
                                     <h4>
-                                        <i class="fa-solid fa-bars-progress"></i>
+                                        <i className="fa-solid fa-bars-progress"></i>
                                         Recruitment
                                     </h4>
                                 </a>

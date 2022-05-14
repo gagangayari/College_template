@@ -14,7 +14,7 @@
     top: 30px;
     
     background-image: url('../../Images/1.webp');
-    animation: slider 9s infinite linear;
+    animation: slider 12s infinite ;
 }
 
 @keyframes slider {

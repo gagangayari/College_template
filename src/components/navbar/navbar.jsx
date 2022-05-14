@@ -8,13 +8,19 @@ function Navbar(){
     return (
 
         <div className="navbar">
+
             <ul className="navbar-comp">
-                <Link to="/">Home</Link>
+                
+                <Link to="/" className="logo-sec">
+                    <img src="Images/logo.jpeg" alt="" height={40} width={60} />
+                    {/* <h5>Khoirabari College</h5> */}
+                </Link>
                 <Link to="/dept">Departments</Link>
                 <Link to="/admins">Administration</Link>
                 <Link to="/acad">Academics</Link>
                 <Link to="/contact">Contact us</Link>
-                <Link to="/login">Login</Link>
+                {/* <Link to="/login">Login</Link> */}
+                {/* <Link to="/counter">Counter</Link> */}
 
                 
 

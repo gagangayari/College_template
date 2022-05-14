@@ -1,18 +1,22 @@
+@import '../../index.css';
+
 body{
     margin: auto;
 }
 
 .navbar{
-    background-color: yellowgreen;
+    background-color: var(--themecolor) ;
     width: 100%;
     height: 50px;
     margin: auto;
+    
     
 }
 
 
 .navbar ul li{
     display: inline-block;
+
 
 }
 
@@ -21,10 +25,11 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    color: var(--text-color);
+
 
 }
 
-.search{
-    position: absolute;
-    color: red;
+.logo-sec{
+    display: inline-block;
 }

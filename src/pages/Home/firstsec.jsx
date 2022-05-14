@@ -6,7 +6,7 @@ class First_sec extends Component{
     render(){
         return(
             <div className="Firstpart">
-                First Part
+                <h2>Message from Principal</h2>
             </div>
         )
     };

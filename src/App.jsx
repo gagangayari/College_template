@@ -5,7 +5,8 @@ import Login from './components/Login/login'
 import Navbar from './components/navbar/navbar'
 import Home from "./pages/Home/home";
 import Administration from "./pages/Administration";
-import Departments from "./pages/departments";
+import Departments from "./pages/Departments/departments";
+import Counter from "./pages/counter/counter"
 
 
 import { BrowserRouter as Router, Routes, Route,Link } from "react-router-dom";
@@ -23,8 +24,8 @@ function App(){
                 <Route path="/login" element={<Login/>} />
                 <Route path="/admins" element={<Administration/>} />
                 <Route path="/dept" element={<Departments />} />
-
-
+                <Route path="contact" element={<h2>Contact</h2>}/>
+                <Route path="/counter" element={<Counter/>} />
 
             </Routes>
 
