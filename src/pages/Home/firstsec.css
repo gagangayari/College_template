@@ -1,7 +1,37 @@
+@import '../../index.css';
+
+
+
+
 .Firstpart{
-    height: 100px;
+    outline: 2px solid blue;
     width: 100%;
-    background-color: rosybrown;
+    background-color: var(--themecolor);
     position: relative;
+    /* display: inline; */
+    overflow: hidden;
     
 }
+
+.Firstpart img {
+    /* position: absolute; */
+    /* float: left; */
+    margin-left: 40%;
+    width: 120px;
+    height: 150px;
+    outline: 2px solid red;
+    
+
+}
+
+.Firstpart h2{
+    width: 50%;
+    outline: 2px solid black;
+    /* height: 3px; */
+}
+.Firstpart p {
+    outline: 2px solid white;
+    width: 50%;
+}
+
+

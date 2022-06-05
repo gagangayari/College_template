@@ -12,7 +12,7 @@ function Home(){
 
             <div ><First_sec/></div>
 
-            <div><Notify/></div>   
+            {/* <div><Notify/></div>    */}
             <Footer></Footer>
         </div>
 

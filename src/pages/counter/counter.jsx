@@ -1,23 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import {useStopwatch, useTimer} from 'react-timer-hook';
 
-class Counter extends React.Component{
-    constructor (props){
-        super(props);
-        this.count = 0;
-    };
-    increase()  {
-        this.count = this.count +1;
-        return this.count;
+function Counter(){
+
+    var [count, setState] = useState(0);
+
+    function start(){
+        console.log("clicked");
+        setState(count+1);
 
     }
-    render(){
-        return (
-            <div>
-                <h1>{this.count}</h1>
-                <button className="btn" onClick={this.increase}>+</button>
-            </div>
-            );
-    }
+    return(
+        <div>
+            <h1>{count}</h1>
+            <button onClick={start}>+</button>
+        </div>
+    )
 }
 
 export default Counter;

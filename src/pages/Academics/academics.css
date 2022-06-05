@@ -1,0 +1,15 @@
+.acad{
+    outline: 2px solid red;
+}
+
+.acad img{
+    float: left;
+    height: 70px;
+    width: 70px;
+    /* outline: 2px solid black; */
+}
+
+.acad p{
+    float: left;
+    /* outline: 2px solid black; */
+}

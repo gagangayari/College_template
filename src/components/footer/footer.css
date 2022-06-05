@@ -1,0 +1,30 @@
+.link-section {
+    display: inline-block;
+}
+
+
+
+.link-section ul {
+    /* float: left; */
+    position: relative;
+    margin: 20px;
+    padding: 0px 10px;  
+    outline: 2px solid red;  
+    
+}
+
+.link-section li{
+    margin-right: 50px;
+    display: inline-block;
+    outline: 2px solid black;  
+
+}
+
+#contact{
+    display: inline-block;
+    outline: 2px solid blue;
+}
+
+
+
+

@@ -3,7 +3,7 @@
     height: 500px;
 }
 
-ul li{
+.notification ul li{
     display: inline-block;
     padding: 5px;
 }

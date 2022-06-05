@@ -2,12 +2,15 @@
     top: 30%;
     left: 5%;
     position: absolute;
+    font-size: 30px;
+    
+    /* padding: 2px; */
 }
 
-li{
+.departments li{
     display: list-item;
 }
 
-a{
+.departments a{
     text-decoration: none;
 }
