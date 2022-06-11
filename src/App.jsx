@@ -8,6 +8,7 @@ import Administration from "./pages/Administration/Administration";
 import Departments from "./pages/Departments/departments";
 import Counter from "./pages/counter/counter"
 import Academics from "./pages/Academics/academics";
+import "./bootstrap-5.2.0-beta1-dist/css/bootstrap.css";
 
 
 import { BrowserRouter as Router, Routes, Route,Link } from "react-router-dom";

@@ -4,11 +4,11 @@
     position: absolute;
     font-size: 30px;
     
-    /* padding: 2px; */
 }
 
 .departments li{
-    display: list-item;
+    /* display: list-item; */
+    padding: 8px;
 }
 
 .departments a{
