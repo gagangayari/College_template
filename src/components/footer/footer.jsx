@@ -1,6 +1,6 @@
 import React from "react";
 import {Quicklinks,Implinks,contact} from './links'
-import './footer.css'
+// import './footer.css'
 
 
 function dispLinks(props){
@@ -20,21 +20,21 @@ function dispLinks(props){
     );
 }
 
-function dispAddress(props){
-    return(
-        <div>
-            <h2>Contacts</h2>
-        </div>
-    )
-}
+
 
 function Footer(props){
     return (
-        <div className="link-section">
-            <ul>
-                <li>{Quicklinks.map(dispLinks)}</li>
-                <li>{Implinks.map(dispLinks)}</li>
-                <li > {dispAddress}</li>
+        <div >
+            <ul className="row">
+                <li className="col">{Quicklinks.map(dispLinks)}</li>
+                <li className="col">{Implinks.map(dispLinks)}</li>
+                <li className="col">
+                        <h2>Contact</h2>
+                        <hr />
+                        <h5>Bhergaon, Udalguri</h5>
+                        <h5>PIN 784522</h5>
+                        <h5>Contact: 0000000000</h5>
+                </li>
             </ul>
         </div>
     );

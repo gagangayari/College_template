@@ -19,7 +19,7 @@ function Navbar(props){
                 <ul className="navbar-nav ms-auto">
                     
                     <li className="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Administration
                     </a>
                         <ul className="dropdown-menu">
@@ -33,7 +33,7 @@ function Navbar(props){
                     </li>
 
                     <li className="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Academics
                     </a>
                         <ul className="dropdown-menu">
@@ -47,7 +47,7 @@ function Navbar(props){
                     </li>
 
                     <li className="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Facilities
                     </a>
                         <ul className="dropdown-menu">
