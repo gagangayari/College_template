@@ -25,10 +25,10 @@ function dispLinks(props){
 function Footer(props){
     return (
         <div >
-            <ul className="row">
-                <li className="col">{Quicklinks.map(dispLinks)}</li>
-                <li className="col">{Implinks.map(dispLinks)}</li>
-                <li className="col">
+            <ul className="row list-unstyled">
+                <li className="col ">{Quicklinks.map(dispLinks)}</li>
+                <li className="col ">{Implinks.map(dispLinks)}</li>
+                <li className="col ">
                         <h2>Contact</h2>
                         <hr />
                         <h5>Bhergaon, Udalguri</h5>

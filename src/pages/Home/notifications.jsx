@@ -4,9 +4,10 @@ import React, { Component } from "react";
 function Date(props){
     return (
         <div className="row p-2">
-            <div className="col-2 bg-warning text-center h-25" >
-                <p >{props.date}</p>
-                <p >{props.year}</p>
+            <div className="bg-warning text-wrap text-center" style={{width:"90px" , height:"60px",borderRadius:"8px"}}>
+                <p className="fs-9 m-0 fw-semibold ">{props.date}</p>
+                <p className="fs-9 m-0 fst-normal">{props.year}</p>
+
             </div>
             <div className="col">
                 <a href="">{props.desc} </a>
@@ -19,8 +20,8 @@ function Date(props){
 class Notify extends Component {
     render (){
         return (
-            <div className="notification">
-                <div className="row">
+            <div className="notification p-2"  >
+                <div className="row" style={{backgroundColor : "#9BA3EB"}}>
                     <div className="col">
                         <ul className="nav nav-pills boot-tabs">
                             <li className="active">
@@ -44,9 +45,9 @@ class Notify extends Component {
                     </div>
 
                     <div className="col">
-                        <h2>Events</h2>
+                        <h2 className="text-center">Events</h2>
                         <Date date="23 Jan" year="2022" desc="A two-day symposium on Socio-Technological Aspects of Seismic Disaster and its Mitigation"/>
-                        <Date date="30 March" year="2022" desc="A two-day symposium on Socio-Technological Aspects of Seismic Disaster and its Mitigation"/>
+                        <Date date="30 Mar" year="2022" desc="A two-day symposium on Socio-Technological Aspects of Seismic Disaster and its Mitigation"/>
 
                         
                     </div>

@@ -10,8 +10,8 @@ const message= "Hey Duis aute irure dolor in reprehenderit in voluptate velit es
 class FirstSec extends Component{
     render(){
         return(
-            <div className="container-fluid m-3">
-                <div className="row bg-info">
+            <div className="container-fluid ">
+                <div className="row p-3">
                     <div className="col ms-3">
                         <h2 >Message from Principal</h2>
                         <p > {message}</p>                
